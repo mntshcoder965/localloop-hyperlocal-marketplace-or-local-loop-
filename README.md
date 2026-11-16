@@ -139,8 +139,9 @@ The application includes pre-seeded demo accounts with rich listing histories, r
    DB_PASSWORD=postgres
    DB_NAME=localloop
    REDIS_URL=redis://localhost:6379
-   JWT_ACCESS_SECRET=localloop_super_secret_access_jwt_key_2026_xyz
-   JWT_REFRESH_SECRET=localloop_super_secret_refresh_jwt_key_2026_xyz
+   JWT_ACCESS_SECRET=your_access_secret_here
+   JWT_REFRESH_SECRET=your_refresh_secret_here
+   
    ```
 
 5. **Run database migration and seed data:**
